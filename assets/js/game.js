@@ -1,3 +1,7 @@
+// Game States
+// "WIN" - Player robot has defeated all enemy-robots
+// "LOSE" - Player robot's health is zero or less
+
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
 var playerAttack = 10;
@@ -87,4 +91,4 @@ if (playerHealth <= 0) {
     window.alert(playerName + " still has " + playerHealth + " health left.");
   }
 };
-fight();
+//fight();
